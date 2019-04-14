@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "resgrp-loc": {
-      "value": "North Europe"
+      "value": "West Europe"
     },
     "sql-name": {
       "value": "i365-app-sql-live"
@@ -39,7 +39,7 @@
       "value": "i365-app-appinsights-live"
     },
     "appinsights-loc": {
-      "value": "North Europe"
+      "value": "West Europe"
     },
     "servicebus-name": {
       "value": "i365appservicebuslive"

@@ -16,6 +16,7 @@ This ARM template provides an example which deploys the following:
 - Storage accounts.
 - Azure Media Services account.
 - Azure Service Bus.
+- Azure Service Bus Queue.
 
 ## Key Vault Sample
 This ARM template provides an example which deploys the following:
