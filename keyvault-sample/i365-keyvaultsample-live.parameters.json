@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "resgrp-loc": {
+      "value": "North Europe"
+    },
+    "storage-name": {
+      "value": "i365appstorage"
+    },
+    "storage-keyvault-secret":{
+      "value":"storage-secret"
+    },
+    "keyvault-name":{
+      "value":"i365appkeyvault"
+    }
+  }
+}

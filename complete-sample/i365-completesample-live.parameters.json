@@ -1,0 +1,67 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "resgrp-loc": {
+      "value": "North Europe"
+    },
+    "sql-name": {
+      "value": "i365-app-sql-live"
+    },
+    "sql-admin": {
+      "value": "i365-app-sql-admin"
+    },
+    "sql-pwd": {
+      "value": ""
+    },
+    "appsvcplan-name": {
+      "value": "i365-app-appsvc-live"
+    },
+    "appsvcplan-tier": {
+      "value": "F1"
+    },
+    "api-appsvc-name": {
+      "value": "i365-app-api-live"
+    },
+    "ui-appsvc-name": {
+      "value": "i365-app-ui-live"
+    },
+    "jobproc-appsvc-name": {
+      "value": "i365-app-proc-live"
+    },
+    "jobproc-appsvcplan-name": {
+      "value": "i365-app-appsvc-live"
+    },
+    "jobproc-appsvc-alwayson": {
+      "value": false
+    },
+    "appinsights-name": {
+      "value": "i365-app-appinsights-live"
+    },
+    "appinsights-loc": {
+      "value": "North Europe"
+    },
+    "servicebus-name": {
+      "value": "i365appservicebuslive"
+    },
+    "proc-storage-name": {
+      "value": "i365appprocstoragelive"
+    },
+    "functions-appsvc-name": {
+        "value":"i365-app-func-live"
+    },
+    "functions-storage-name": {
+        "value":"i365appfuncstoragelive"
+    },
+    "media-storage-name": {
+      "value": "i365appmedialive"
+    },
+    "media-service-name":{
+        "value":"i365appmediasvclive"
+    },
+    "search-service-name":{
+        "value":"i365-app-search-live"
+    }
+    
+  }
+}
